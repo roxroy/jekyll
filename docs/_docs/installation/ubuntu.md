@@ -15,9 +15,9 @@ commands will add environment variables to your `~/.bashrc` file to configure
 the gem installation path. Run them now:
 
 ```sh
-echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
-echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+echo '# Install Ruby Gems to ~/.gem' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/.gem"' >> ~/.bashrc
+echo 'export PATH="$HOME/.gem/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
